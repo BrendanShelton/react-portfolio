@@ -16,6 +16,11 @@ function Navbar({ currentPage, handlePageChange }) {
     onClick={() => handlePageChange('Contact')}
     className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
     >Contact</a>
+
+    <a href="#resume"
+    onClick={() => handlePageChange('Resume')}
+    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+    >Resume</a>
     </nav>
   </header>
 }

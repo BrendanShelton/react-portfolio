@@ -4,6 +4,7 @@ import About from './sections/about';
 import Projects from './sections/projects'
 import Footer from './sections/footer';
 import Contact from './sections/contact';
+import Resume from './sections/resume'
 import '../styles/style.css';
 
 export default function Welcome() {
@@ -19,7 +20,7 @@ export default function Welcome() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    return <Contact />;
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
