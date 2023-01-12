@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './sections/navbar';
 import About from './sections/about';
 import Projects from './sections/projects'
@@ -7,6 +7,7 @@ import Contact from './sections/contact';
 import '../styles/style.css';
 
 export default function Welcome() {
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'About') {
