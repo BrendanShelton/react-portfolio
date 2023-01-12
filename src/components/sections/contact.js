@@ -28,7 +28,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <section>
       <h2>
         Contact
       </h2>
@@ -58,7 +58,7 @@ function Contact() {
           Submit
         </button>
       </form>
-    </div>
+    </section>
   );
 }
 
